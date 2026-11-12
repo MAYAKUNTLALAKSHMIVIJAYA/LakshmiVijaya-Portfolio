@@ -76,6 +76,8 @@ export default function Hero({ onOpenResume }) {
           <img
             src="/images/profile.jpg"
             alt="Mayakuntla Lakshmi Vijaya"
+            loading="eager"
+            fetchpriority="high"
             onError={() => setImgError(true)}
             style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
           />

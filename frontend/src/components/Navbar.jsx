@@ -87,6 +87,8 @@ export default function Navbar({ onOpenResume }) {
             <img
               src="/images/logo.png"
               alt="ML Logo"
+              loading="eager"
+              fetchpriority="high"
               style={{
                 width: 38,
                 height: 38,
