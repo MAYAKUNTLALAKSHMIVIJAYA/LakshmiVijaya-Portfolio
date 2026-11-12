@@ -1,0 +1,116 @@
+{
+  "name": "Kanajam John Sudhakar",
+  "title": "Software Engineer | Aspiring Software Development Engineer | Machine Learning Developer",
+  "location": "Guntur, Andhra Pradesh, India",
+  "phone": "+91 6300820392",
+  "email": "2300031272cseh2@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/john-sudhakar-a99079330/",
+  "github": "https://github.com/John-5569",
+  "summary": "Aspiring Software Development Engineer with strong expertise in Machine Learning, Data Analysis, and Full-Stack Development. Proficient in Python, SQL, and FastAPI, bridging the gap between Machine Learning and intuitive user experiences.",
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "KL University (KLEF)",
+      "period": "2023–2027",
+      "score": "CGPA: 9.4/10",
+      "status": "Pursuing"
+    }
+  ],
+  "skills": {
+    "programming": ["Python", "C"],
+    "databases": ["SQL", "MySQL", "PostgreSQL", "Redis", "pgvector"],
+    "backend_and_cloud": ["FastAPI", "Django", "CI/CD", "Docker"],
+    "core_concepts": ["Algorithms", "Object-Oriented Programming (OOP)", "Operating Systems (OS)", "Database Management Systems (DBMS)", "Computer Networks (CN)"],
+    "ai_and_data_science": ["Machine Learning", "PyTorch", "Scikit-Learn", "Pandas", "XGBoost"]
+  },
+  "coding_profiles": [
+    {
+      "platform": "LeetCode",
+      "url": "https://leetcode.com/u/john_sudhakar/",
+      "description": "Solving algorithmic challenges and data structures."
+    },
+    {
+      "platform": "HackerRank",
+      "url": "https://www.hackerrank.com/profile/klu2300031272",
+      "description": "Practicing core computer science paradigms."
+    },
+    {
+      "platform": "CodeChef",
+      "url": "https://www.codechef.com/users/john_sudhakar",
+      "description": "Participating in competitive programming contests."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Big Data Athlete Performance Analysis",
+      "date": "Jan 2026",
+      "github": "https://github.com/John-5569/BigDataAthletePerformaceDashboard",
+      "tech_stack": ["React", "Vite", "FastAPI", "PostgreSQL", "REST API"],
+      "description": "A full-stack analytics platform to monitor and analyze athlete performance metrics using FastAPI and PostgreSQL. Implemented role-based authentication with JWT and secure password hashing via bcrypt, along with admin CRUD operations."
+    },
+    {
+      "title": "Twitter Clone",
+      "date": "Jun 2025",
+      "github": "https://github.com/John-5569/twiter_clone.git",
+      "tech_stack": ["Python", "Django", "HTML", "Bootstrap"],
+      "description": "A Twitter-like web application using Django with server-side rendering, authentication, and tweet management. Designed relational data models and implemented URL routing following the MVT architecture."
+    },
+    {
+      "title": "Loan Prediction System",
+      "date": "Mar 2025",
+      "github": "https://github.com/John-5569/LoanPredictionModelXGBoost.git",
+      "tech_stack": ["Python", "Pandas", "Scikit-learn", "XGBoost"],
+      "description": "A XGBoost Classification model to predict loan approvals with comprehensive data preprocessing and feature engineering. Performed EDA and evaluated model performance using MAE, MSE, and R²."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Essentials Automation Certification",
+      "organization": "Automation Anywhere",
+      "year": "2024",
+      "url": "https://drive.google.com/file/d/1kt_2JrJvYvWfZ9dglCB86zZz4_kXtFOk/view?usp=share_link"
+    },
+    {
+      "name": "Data Analytics Job Simulation",
+      "organization": "Deloitte Australia – Forage",
+      "year": "2025",
+      "url": "https://drive.google.com/file/d/1kt_2JrJvYvWfZ9dglCB86zZz4_kXtFOk/view?usp=share_link"
+    },
+    {
+      "name": "Data Science Professional",
+      "organization": "Oracle",
+      "year": "2025",
+      "url": "https://drive.google.com/file/d/1taDia5RhNEWFvXzPgJXbetv90__EA1TJ/view?usp=share_link"
+    },
+    {
+      "name": "AI & Machine Learning",
+      "organization": "Kodacy",
+      "year": "2025",
+      "url": "https://drive.google.com/file/d/1jdq7Me3en1wl6dqQsQyd3PmVzw_3f6pQ/view?usp=share_link"
+    },
+    {
+      "name": "Cybersecurity Job Simulation",
+      "organization": "Master Card – Forage",
+      "year": "2026",
+      "url": "https://www.linkedin.com/in/john-sudhakar-a99079330/detail/certifications/"
+    },
+    {
+      "name": "Product Management Job Simulation",
+      "organization": "Electronics Arts – Forage",
+      "year": "2026",
+      "url": "https://drive.google.com/file/d/1I2rZxlJ97Bftv31wjNvQ3bMW6EzhwWqt/view?usp=share_link"
+    },
+    {
+      "name": "Software Engineering Job Simulation",
+      "organization": "Wells Fargo – Forage",
+      "year": "2026",
+      "url": "https://drive.google.com/file/d/1eD7cuNyZRKLM9Z4nyo3Mn8if1UI0Flq5/view?usp=share_link"
+    },
+    {
+      "name": "Cybersecurity Job Simulation",
+      "organization": "AIG – Forage",
+      "year": "2026",
+      "url": "https://drive.google.com/file/d/1nSrPhc7LGoRcfBBIeyWc4KmPK5mt6CBP/view?usp=share_link"
+    }
+  ]
+}
