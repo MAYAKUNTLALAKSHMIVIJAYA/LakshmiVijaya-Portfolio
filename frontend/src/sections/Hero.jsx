@@ -195,9 +195,14 @@ export default function Hero({ onOpenResume }) {
           >
             Explore My Projects
           </button>
-          <button
-            onClick={onOpenResume}
+          <a
+            href="/resume.pdf"
+            download="Mayakuntla_Lakshmi_Vijaya_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
             style={{
+              display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+              textDecoration: 'none',
               padding: '16px 36px', borderRadius: 50,
               background: 'transparent',
               color: 'rgba(255,255,255,0.75)',
@@ -215,7 +220,7 @@ export default function Hero({ onOpenResume }) {
             }}
           >
             Download Resume
-          </button>
+          </a>
         </div>
 
         {/* Social icons */}

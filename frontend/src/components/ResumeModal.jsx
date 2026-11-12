@@ -39,17 +39,33 @@ export default function ResumeModal({ isOpen, onClose }) {
           <span style={{ fontFamily: 'Manrope,sans-serif', fontWeight: 800, fontSize: 15, color: '#fff' }}>
             Resume Preview
           </span>
-          <div style={{ display: 'flex', gap: 10 }}>
-            <button
-              onClick={handlePrint}
+          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
+            <a
+              href="/resume.pdf"
+              download="Mayakuntla_Lakshmi_Vijaya_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
               style={{
+                display: 'inline-flex', alignItems: 'center', gap: 6,
                 padding: '10px 22px', borderRadius: 50,
                 background: '#F2F2F2', color: '#0D0D0D',
                 fontFamily: 'Manrope,sans-serif', fontWeight: 800, fontSize: 13,
-                border: 'none', cursor: 'pointer',
+                textDecoration: 'none',
               }}
             >
-              🖨 Print / Save PDF
+              📥 Download PDF
+            </a>
+            <button
+              onClick={handlePrint}
+              style={{
+                padding: '10px 20px', borderRadius: 50,
+                background: 'rgba(255,255,255,0.06)', color: '#fff',
+                border: '1px solid rgba(255,255,255,0.12)',
+                fontFamily: 'Manrope,sans-serif', fontWeight: 700, fontSize: 13,
+                cursor: 'pointer',
+              }}
+            >
+              🖨 Print
             </button>
             <button
               onClick={onClose}

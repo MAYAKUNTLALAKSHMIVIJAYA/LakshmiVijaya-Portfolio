@@ -14,6 +14,7 @@ A futuristic, high-performance personal developer portfolio website for **Mayaku
 - **Diploma**: Diploma in Computer Engineering, SV Government Polytechnic, Tirupati (**95%**)
 - **School**: AP Model School, Dharmavaram (**80%**)
 - **Location**: Dharmavaram, Andhra Pradesh, India
+- **Phone**: +91 6300881046
 - **Email**: [2300039013cse3@gmail.com](mailto:2300039013cse3@gmail.com)
 - **GitHub**: [github.com/MAYAKUNTLALAKSHMIVIJAYA](https://github.com/MAYAKUNTLALAKSHMIVIJAYA)
 - **LeetCode**: [leetcode.com/u/MLakshmiVijaya_2300039013/](https://leetcode.com/u/MLakshmiVijaya_2300039013/)

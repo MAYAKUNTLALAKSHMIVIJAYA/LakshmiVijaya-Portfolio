@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   tagline: "Building Intelligent Solutions Through AI & Code.",
   heroDesc: "Computer Science undergraduate passionate about AI, Machine Learning, and Full-Stack Development — building practical software that solves real-world problems.",
   email: "2300039013cse3@gmail.com",
-  phone: "+91 9100000000",   // placeholder — user to update
+  phone: "+91 6300881046",
   location: "Dharmavaram, Andhra Pradesh, India",
   github: "https://github.com/MAYAKUNTLALAKSHMIVIJAYA",
   linkedin: "https://www.linkedin.com/in/mayakuntla-lakshmi-vijaya/",  // placeholder
