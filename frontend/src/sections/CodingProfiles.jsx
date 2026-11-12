@@ -76,74 +76,31 @@ export default function CodingProfiles() {
               </div>
 
               {/* CTA */}
-              {profile.badge ? (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                  <div style={{
-                    display: 'inline-flex', alignItems: 'center', gap: 8,
-                    padding: '10px 16px', borderRadius: 50,
-                    background: 'rgba(56,225,255,0.12)',
-                    border: '1px solid rgba(56,225,255,0.25)',
-                    fontFamily: 'Manrope, sans-serif', fontSize: 13,
-                    fontWeight: 700, color: '#38E1FF',
-                    alignSelf: 'flex-start',
-                  }}>
-                    💎 {profile.badge}
-                  </div>
-                  {profile.url && (
-                    <a
-                      href={profile.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      style={{
-                        display: 'inline-flex', alignItems: 'center', gap: 8,
-                        padding: '10px 16px', borderRadius: 50,
-                        background: 'rgba(56,114,255,0.12)',
-                        border: '1px solid rgba(56,114,255,0.2)',
-                        fontFamily: 'Manrope, sans-serif', fontSize: 13,
-                        fontWeight: 700, color: '#8BA8FF',
-                        textDecoration: 'none', transition: 'all 0.2s',
-                        alignSelf: 'flex-start',
-                      }}
-                      onMouseEnter={e => {
-                        e.currentTarget.style.background = 'rgba(56,114,255,0.2)';
-                        e.currentTarget.style.color = '#A8BFFF';
-                      }}
-                      onMouseLeave={e => {
-                        e.currentTarget.style.background = 'rgba(56,114,255,0.12)';
-                        e.currentTarget.style.color = '#8BA8FF';
-                      }}
-                    >
-                      Visit Profile →
-                    </a>
-                  )}
-                </div>
-              ) : (
-                <a
-                  href={profile.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{
-                    display: 'inline-flex', alignItems: 'center', gap: 8,
-                    padding: '10px 16px', borderRadius: 50,
-                    background: 'rgba(56,114,255,0.12)',
-                    border: '1px solid rgba(56,114,255,0.2)',
-                    fontFamily: 'Manrope, sans-serif', fontSize: 13,
-                    fontWeight: 700, color: '#8BA8FF',
-                    textDecoration: 'none', transition: 'all 0.2s',
-                    alignSelf: 'flex-start',
-                  }}
-                  onMouseEnter={e => {
-                    e.currentTarget.style.background = 'rgba(56,114,255,0.2)';
-                    e.currentTarget.style.color = '#A8BFFF';
-                  }}
-                  onMouseLeave={e => {
-                    e.currentTarget.style.background = 'rgba(56,114,255,0.12)';
-                    e.currentTarget.style.color = '#8BA8FF';
-                  }}
-                >
-                  Visit Profile →
-                </a>
-              )}
+              <a
+                href={profile.url}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 8,
+                  padding: '10px 16px', borderRadius: 50,
+                  background: 'rgba(56,114,255,0.12)',
+                  border: '1px solid rgba(56,114,255,0.2)',
+                  fontFamily: 'Manrope, sans-serif', fontSize: 13,
+                  fontWeight: 700, color: '#8BA8FF',
+                  textDecoration: 'none', transition: 'all 0.2s',
+                  alignSelf: 'flex-start',
+                }}
+                onMouseEnter={e => {
+                  e.currentTarget.style.background = 'rgba(56,114,255,0.2)';
+                  e.currentTarget.style.color = '#A8BFFF';
+                }}
+                onMouseLeave={e => {
+                  e.currentTarget.style.background = 'rgba(56,114,255,0.12)';
+                  e.currentTarget.style.color = '#8BA8FF';
+                }}
+              >
+                Visit Profile →
+              </a>
             </div>
           ))}
         </div>

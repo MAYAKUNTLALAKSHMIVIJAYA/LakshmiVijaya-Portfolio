@@ -127,11 +127,10 @@ export const CODING_PROFILES = [
   {
     name: "Smart Interviews",
     url: "https://smartinterviews.in/profile/MLakshmiVijaya",
-    badge: "Smart Coder — Diamond",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     color: "#38E1FF",
     bg: "#F0FDFF",
-    desc: "Earned Smart Coder Diamond Certificate for coding excellence.",
+    desc: "Practicing competitive coding, data structures, and algorithms.",
   },
   {
     name: "CodeChef",
