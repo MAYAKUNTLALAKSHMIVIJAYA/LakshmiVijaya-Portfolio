@@ -16,6 +16,10 @@ A futuristic, high-performance personal developer portfolio website for **Mayaku
 - **Location**: Dharmavaram, Andhra Pradesh, India
 - **Email**: [2300039013cse3@gmail.com](mailto:2300039013cse3@gmail.com)
 - **GitHub**: [github.com/MAYAKUNTLALAKSHMIVIJAYA](https://github.com/MAYAKUNTLALAKSHMIVIJAYA)
+- **LeetCode**: [leetcode.com/u/MLakshmiVijaya_2300039013/](https://leetcode.com/u/MLakshmiVijaya_2300039013/)
+- **Codeforces**: [codeforces.com/profile/MLakshmiVijaya](https://codeforces.com/profile/MLakshmiVijaya)
+- **CodeChef**: [codechef.com/users/kl2300039013](https://www.codechef.com/users/kl2300039013)
+- **HackerRank**: [hackerrank.com/profile/h2300039013](https://www.hackerrank.com/profile/h2300039013)
 - **Smart Interviews**: [smartinterviews.in/profile/MLakshmiVijaya](https://smartinterviews.in/profile/MLakshmiVijaya)
 
 ---
@@ -26,7 +30,7 @@ A futuristic, high-performance personal developer portfolio website for **Mayaku
 2. **Hero Section**: Clean centered layout with profile avatar, active "AI Developer" badge, tech skill pills, and quick action buttons.
 3. **About Me**: Narrative introduction with key academic metrics (9.46 CGPA, 95% Diploma, 5+ Projects, 200+ Event Participants).
 4. **Skills**: Categorized cards covering AI & Machine Learning, Programming, Web Development, Databases, Core CS, and Tools.
-5. **Coding Profiles**: Profiles on GitHub, LeetCode, HackerRank, CodeChef, and Smart Interviews (Smart Coder — Diamond Certificate).
+5. **Coding Profiles**: Profiles on GitHub, LeetCode, Codeforces, CodeChef, HackerRank, and Smart Interviews (Smart Coder — Diamond Certificate).
 6. **Featured Projects**:
    - **KiranaSightAI**: AI retail shelf inventory monitoring using Computer Vision and OCR.
    - **Deadline Guardian AI**: AI productivity assistant for intelligent deadline prioritization.
