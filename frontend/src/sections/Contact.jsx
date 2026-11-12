@@ -99,22 +99,47 @@ export default function Contact() {
           Drop me a message — I'd love to connect.
         </p>
 
-        {/* Primary email CTA */}
-        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 24 }}>
+        {/* Primary CTAs */}
+        <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap', marginBottom: 28 }}>
           <a
             href={`mailto:${PERSONAL_INFO.email}`}
             style={{
               display: 'inline-flex', alignItems: 'center', gap: 10,
-              padding: '20px 48px', borderRadius: 60,
+              padding: '18px 40px', borderRadius: 60,
               background: '#F2F2F2', color: '#0D0D0D',
               fontFamily: 'Manrope, sans-serif', fontWeight: 800,
-              fontSize: 16, letterSpacing: '-0.01em',
+              fontSize: 15, letterSpacing: '-0.01em',
               textDecoration: 'none', transition: 'opacity 0.2s',
             }}
             onMouseEnter={e => e.currentTarget.style.opacity = '0.88'}
             onMouseLeave={e => e.currentTarget.style.opacity = '1'}
           >
             📧 Send An Email
+          </a>
+          <a
+            href={PERSONAL_INFO.github}
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 10,
+              padding: '18px 40px', borderRadius: 60,
+              background: 'rgba(255,255,255,0.06)',
+              border: '1px solid rgba(255,255,255,0.15)',
+              color: '#FFFFFF',
+              fontFamily: 'Manrope, sans-serif', fontWeight: 800,
+              fontSize: 15, letterSpacing: '-0.01em',
+              textDecoration: 'none', transition: 'all 0.2s',
+            }}
+            onMouseEnter={e => {
+              e.currentTarget.style.background = 'rgba(255,255,255,0.12)';
+              e.currentTarget.style.borderColor = 'rgba(255,255,255,0.25)';
+            }}
+            onMouseLeave={e => {
+              e.currentTarget.style.background = 'rgba(255,255,255,0.06)';
+              e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)';
+            }}
+          >
+            {GH_ICON} GitHub Profile
           </a>
         </div>
 

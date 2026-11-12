@@ -109,6 +109,14 @@ export const SKILL_CATEGORIES = [
 
 export const CODING_PROFILES = [
   {
+    name: "GitHub",
+    url: "https://github.com/MAYAKUNTLALAKSHMIVIJAYA",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+    color: "#FFFFFF",
+    bg: "#181818",
+    desc: "Explore repositories, AI systems, Computer Vision models, and full-stack projects.",
+  },
+  {
     name: "LeetCode",
     url: "https://leetcode.com/MAYAKUNTLALAKSHMIVIJAYA/",
     icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
@@ -135,11 +143,11 @@ export const CODING_PROFILES = [
   {
     name: "Smart Interviews",
     url: "https://smartinterviews.in/profile/MLakshmiVijaya",
-    badge: "Smart Coder — Silver",
+    badge: "Smart Coder — Diamond",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
-    color: "#C0C0C0",
-    bg: "#F8F8F8",
-    desc: "Earned Smart Coder Silver Certificate for coding excellence.",
+    color: "#38E1FF",
+    bg: "#F0FDFF",
+    desc: "Earned Smart Coder Diamond Certificate for coding excellence.",
   },
 ];
 
@@ -287,12 +295,12 @@ export const ACHIEVEMENTS = [
   },
   {
     id: "03",
-    title: "Smart Coder — Silver Certificate",
+    title: "Smart Coder — Diamond Certificate",
     org: "Smart Interviews",
-    desc: "Earned the Smart Coder Silver Certificate recognizing competitive programming proficiency.",
-    icon: "🥈",
+    desc: "Earned the Smart Coder Diamond Certificate recognizing competitive programming proficiency.",
+    icon: "💎",
     type: "certification",
-    url: null,
+    url: "https://smartinterviews.in/profile/MLakshmiVijaya",
   },
   {
     id: "04",

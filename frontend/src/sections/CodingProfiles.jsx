@@ -20,7 +20,7 @@ export default function CodingProfiles() {
           fontSize: 'clamp(28px, 3.6vw, 42px)', fontWeight: 800,
           letterSpacing: '-0.03em', color: '#FFFFFF',
           marginBottom: 44, fontFamily: 'Manrope, sans-serif',
-        }}>Competitive Programming</h2>
+        }}>Coding Profiles & Platforms</h2>
 
         <div style={{
           display: 'grid',
@@ -81,13 +81,13 @@ export default function CodingProfiles() {
                   <div style={{
                     display: 'inline-flex', alignItems: 'center', gap: 8,
                     padding: '10px 16px', borderRadius: 50,
-                    background: 'rgba(192,192,192,0.12)',
-                    border: '1px solid rgba(192,192,192,0.2)',
+                    background: 'rgba(56,225,255,0.12)',
+                    border: '1px solid rgba(56,225,255,0.25)',
                     fontFamily: 'Manrope, sans-serif', fontSize: 13,
-                    fontWeight: 700, color: '#C8C8C8',
+                    fontWeight: 700, color: '#38E1FF',
                     alignSelf: 'flex-start',
                   }}>
-                    🥈 {profile.badge}
+                    💎 {profile.badge}
                   </div>
                   {profile.url && (
                     <a

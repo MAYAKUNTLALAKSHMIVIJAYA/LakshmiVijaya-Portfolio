@@ -26,7 +26,7 @@ A futuristic, high-performance personal developer portfolio website for **Mayaku
 2. **Hero Section**: Clean centered layout with profile avatar, active "AI Developer" badge, tech skill pills, and quick action buttons.
 3. **About Me**: Narrative introduction with key academic metrics (9.46 CGPA, 95% Diploma, 5+ Projects, 200+ Event Participants).
 4. **Skills**: Categorized cards covering AI & Machine Learning, Programming, Web Development, Databases, Core CS, and Tools.
-5. **Coding Profiles**: Profiles on LeetCode, HackerRank, CodeChef, and Smart Interviews (Smart Coder — Silver).
+5. **Coding Profiles**: Profiles on GitHub, LeetCode, HackerRank, CodeChef, and Smart Interviews (Smart Coder — Diamond Certificate).
 6. **Featured Projects**:
    - **KiranaSightAI**: AI retail shelf inventory monitoring using Computer Vision and OCR.
    - **Deadline Guardian AI**: AI productivity assistant for intelligent deadline prioritization.
